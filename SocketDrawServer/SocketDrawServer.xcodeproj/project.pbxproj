@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3470C4219A80FE006B20DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470C3219A80FE006B20DA /* AppDelegate.m */; };
+		1B3470C7219A80FE006B20DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470C6219A80FE006B20DA /* ViewController.m */; };
+		1B3470CA219A80FE006B20DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3470C8219A80FE006B20DA /* Main.storyboard */; };
+		1B3470CC219A8100006B20DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3470CB219A8100006B20DA /* Assets.xcassets */; };
+		1B3470CF219A8100006B20DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3470CD219A8100006B20DA /* LaunchScreen.storyboard */; };
+		1B3470D2219A8100006B20DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470D1219A8100006B20DA /* main.m */; };
+		1B3470EE219AA7DD006B20DA /* ELSocketTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470E1219AA7DC006B20DA /* ELSocketTool.m */; };
+		1B3470EF219AA7DD006B20DA /* UIButton+ELTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470E3219AA7DC006B20DA /* UIButton+ELTool.m */; };
+		1B3470F0219AA7DD006B20DA /* DrawSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470E4219AA7DC006B20DA /* DrawSocketManager.m */; };
+		1B3470F1219AA7DD006B20DA /* NSMutableData+ELTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470E6219AA7DD006B20DA /* NSMutableData+ELTool.m */; };
+		1B3470F2219AA7DD006B20DA /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470E8219AA7DD006B20DA /* DrawView.m */; };
+		1B3470F3219AA7DD006B20DA /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470EA219AA7DD006B20DA /* DrawViewController.m */; };
+		1B3470F9219AB697006B20DA /* NSData+ELTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3470F8219AB697006B20DA /* NSData+ELTool.m */; };
+		80FB3EA1EBBD0B1C807A2A6B /* libPods-SocketDrawServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC83F84B992A0A77C92C343 /* libPods-SocketDrawServer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B3470BF219A80FE006B20DA /* SocketDrawServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketDrawServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3470C2219A80FE006B20DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B3470C3219A80FE006B20DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B3470C5219A80FE006B20DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B3470C6219A80FE006B20DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B3470C9219A80FE006B20DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B3470CB219A8100006B20DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B3470CE219A8100006B20DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B3470D0219A8100006B20DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3470D1219A8100006B20DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B3470E1219AA7DC006B20DA /* ELSocketTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELSocketTool.m; sourceTree = "<group>"; };
+		1B3470E2219AA7DC006B20DA /* UIButton+ELTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ELTool.h"; sourceTree = "<group>"; };
+		1B3470E3219AA7DC006B20DA /* UIButton+ELTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ELTool.m"; sourceTree = "<group>"; };
+		1B3470E4219AA7DC006B20DA /* DrawSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSocketManager.m; sourceTree = "<group>"; };
+		1B3470E5219AA7DD006B20DA /* DrawSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSocketManager.h; sourceTree = "<group>"; };
+		1B3470E6219AA7DD006B20DA /* NSMutableData+ELTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+ELTool.m"; sourceTree = "<group>"; };
+		1B3470E8219AA7DD006B20DA /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		1B3470E9219AA7DD006B20DA /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		1B3470EA219AA7DD006B20DA /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		1B3470EB219AA7DD006B20DA /* ELSocketTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELSocketTool.h; sourceTree = "<group>"; };
+		1B3470EC219AA7DD006B20DA /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		1B3470ED219AA7DD006B20DA /* NSMutableData+ELTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+ELTool.h"; sourceTree = "<group>"; };
+		1B3470F7219AB697006B20DA /* NSData+ELTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ELTool.h"; sourceTree = "<group>"; };
+		1B3470F8219AB697006B20DA /* NSData+ELTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELTool.m"; sourceTree = "<group>"; };
+		3CC83F84B992A0A77C92C343 /* libPods-SocketDrawServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketDrawServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1A31E87228B95BE1F8CF99 /* Pods-SocketDrawServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketDrawServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketDrawServer/Pods-SocketDrawServer.release.xcconfig"; sourceTree = "<group>"; };
+		94F7BB8DA75C86DD51C96D8A /* Pods-SocketDrawServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketDrawServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketDrawServer/Pods-SocketDrawServer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3470BC219A80FE006B20DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB3EA1EBBD0B1C807A2A6B /* libPods-SocketDrawServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B3470B6219A80FE006B20DA = {
+			isa = PBXGroup;
+			children = (
+				1B3470C1219A80FE006B20DA /* SocketDrawServer */,
+				1B3470C0219A80FE006B20DA /* Products */,
+				1BB67E209D9E554FC472FB71 /* Pods */,
+				E7399EA755213A7DDD5B59F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B3470C0219A80FE006B20DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3470BF219A80FE006B20DA /* SocketDrawServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B3470C1219A80FE006B20DA /* SocketDrawServer */ = {
+			isa = PBXGroup;
+			children = (
+				1B3470C2219A80FE006B20DA /* AppDelegate.h */,
+				1B3470C3219A80FE006B20DA /* AppDelegate.m */,
+				1B3470C5219A80FE006B20DA /* ViewController.h */,
+				1B3470C6219A80FE006B20DA /* ViewController.m */,
+				1B3470E7219AA7DD006B20DA /* draws */,
+				1B3470E5219AA7DD006B20DA /* DrawSocketManager.h */,
+				1B3470E4219AA7DC006B20DA /* DrawSocketManager.m */,
+				1B3470EC219AA7DD006B20DA /* DrawViewController.h */,
+				1B3470EA219AA7DD006B20DA /* DrawViewController.m */,
+				1B3470EB219AA7DD006B20DA /* ELSocketTool.h */,
+				1B3470E1219AA7DC006B20DA /* ELSocketTool.m */,
+				1B3470ED219AA7DD006B20DA /* NSMutableData+ELTool.h */,
+				1B3470E6219AA7DD006B20DA /* NSMutableData+ELTool.m */,
+				1B3470E2219AA7DC006B20DA /* UIButton+ELTool.h */,
+				1B3470E3219AA7DC006B20DA /* UIButton+ELTool.m */,
+				1B3470F7219AB697006B20DA /* NSData+ELTool.h */,
+				1B3470F8219AB697006B20DA /* NSData+ELTool.m */,
+				1B3470C8219A80FE006B20DA /* Main.storyboard */,
+				1B3470CB219A8100006B20DA /* Assets.xcassets */,
+				1B3470CD219A8100006B20DA /* LaunchScreen.storyboard */,
+				1B3470D0219A8100006B20DA /* Info.plist */,
+				1B3470D1219A8100006B20DA /* main.m */,
+			);
+			path = SocketDrawServer;
+			sourceTree = "<group>";
+		};
+		1B3470E7219AA7DD006B20DA /* draws */ = {
+			isa = PBXGroup;
+			children = (
+				1B3470E8219AA7DD006B20DA /* DrawView.m */,
+				1B3470E9219AA7DD006B20DA /* DrawView.h */,
+			);
+			path = draws;
+			sourceTree = "<group>";
+		};
+		1BB67E209D9E554FC472FB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F7BB8DA75C86DD51C96D8A /* Pods-SocketDrawServer.debug.xcconfig */,
+				6B1A31E87228B95BE1F8CF99 /* Pods-SocketDrawServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7399EA755213A7DDD5B59F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CC83F84B992A0A77C92C343 /* libPods-SocketDrawServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B3470BE219A80FE006B20DA /* SocketDrawServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3470D5219A8100006B20DA /* Build configuration list for PBXNativeTarget "SocketDrawServer" */;
+			buildPhases = (
+				A15DE639428FE73A7F3ADE79 /* [CP] Check Pods Manifest.lock */,
+				1B3470BB219A80FE006B20DA /* Sources */,
+				1B3470BC219A80FE006B20DA /* Frameworks */,
+				1B3470BD219A80FE006B20DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketDrawServer;
+			productName = SocketDrawServer;
+			productReference = 1B3470BF219A80FE006B20DA /* SocketDrawServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B3470B7219A80FE006B20DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = evol;
+				TargetAttributes = {
+					1B3470BE219A80FE006B20DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B3470BA219A80FE006B20DA /* Build configuration list for PBXProject "SocketDrawServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B3470B6219A80FE006B20DA;
+			productRefGroup = 1B3470C0219A80FE006B20DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B3470BE219A80FE006B20DA /* SocketDrawServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B3470BD219A80FE006B20DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3470CF219A8100006B20DA /* LaunchScreen.storyboard in Resources */,
+				1B3470CC219A8100006B20DA /* Assets.xcassets in Resources */,
+				1B3470CA219A80FE006B20DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A15DE639428FE73A7F3ADE79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocketDrawServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B3470BB219A80FE006B20DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3470F3219AA7DD006B20DA /* DrawViewController.m in Sources */,
+				1B3470F0219AA7DD006B20DA /* DrawSocketManager.m in Sources */,
+				1B3470C7219A80FE006B20DA /* ViewController.m in Sources */,
+				1B3470F9219AB697006B20DA /* NSData+ELTool.m in Sources */,
+				1B3470EF219AA7DD006B20DA /* UIButton+ELTool.m in Sources */,
+				1B3470F1219AA7DD006B20DA /* NSMutableData+ELTool.m in Sources */,
+				1B3470EE219AA7DD006B20DA /* ELSocketTool.m in Sources */,
+				1B3470D2219A8100006B20DA /* main.m in Sources */,
+				1B3470F2219AA7DD006B20DA /* DrawView.m in Sources */,
+				1B3470C4219A80FE006B20DA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B3470C8219A80FE006B20DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B3470C9219A80FE006B20DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B3470CD219A8100006B20DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B3470CE219A8100006B20DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B3470D3219A8100006B20DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B3470D4219A8100006B20DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B3470D6219A8100006B20DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F7BB8DA75C86DD51C96D8A /* Pods-SocketDrawServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5724PKP278;
+				INFOPLIST_FILE = SocketDrawServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--evol--.SocketDrawServer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B3470D7219A8100006B20DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1A31E87228B95BE1F8CF99 /* Pods-SocketDrawServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5724PKP278;
+				INFOPLIST_FILE = SocketDrawServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--evol--.SocketDrawServer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B3470BA219A80FE006B20DA /* Build configuration list for PBXProject "SocketDrawServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3470D3219A8100006B20DA /* Debug */,
+				1B3470D4219A8100006B20DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B3470D5219A8100006B20DA /* Build configuration list for PBXNativeTarget "SocketDrawServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3470D6219A8100006B20DA /* Debug */,
+				1B3470D7219A8100006B20DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B3470B7219A80FE006B20DA /* Project object */;
+}
